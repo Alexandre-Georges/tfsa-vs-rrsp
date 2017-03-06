@@ -43,3 +43,7 @@ To run tests in watch mode:
 ```shell
 npm run test-watch
 ```
+
+## Running
+
+Just open the index.html file :).
