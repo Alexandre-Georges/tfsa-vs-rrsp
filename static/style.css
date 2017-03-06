@@ -1,0 +1,43 @@
+input {
+  width: 80px;
+}
+
+#form {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#form .cell:first-child {
+  width: 40%;
+}
+
+#form .cell:first-child, #results .cell:first-child {
+  text-align: left;
+  padding-right: 2em;
+  font-weight: bold;
+}
+
+#results {
+  margin: 3em auto 0 auto;
+}
+
+#results .cell {
+  width: 33%;
+  text-align: center;
+}
+
+#results .row:first-child .cell {
+  font-weight: bold;
+}
+
+.table {
+  display: table
+}
+
+.row {
+  display: table-row
+}
+
+.cell {
+  display: table-cell
+}
