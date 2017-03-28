@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll",
+    "test-coverage": "jest --coverage",
     "package": "node_modules/.bin/webpack --progress --colors",
     "package-watch": "node_modules/.bin/webpack --progress --colors --watch"
   },
